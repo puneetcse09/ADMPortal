@@ -1,0 +1,50 @@
+# em is served by a back end server. This controls which port to use.
+server.port: 3000
+
+# The host to bind the server to.
+# server.host: "0.0.0.0"
+
+# The default application to load. Valid values "dev","prod","development","production"
+env: "dev"
+
+# The default application to load.
+em.defaultAppId: "home"
+
+#---------------neo4j configuration----------------------------------#
+
+# The neo4j instance to use for all your queries.
+neo4j.host: "104.200.17.97"
+
+# The neo4j port.
+neo4j.port: 4747
+
+# username for  neo4j DB.
+neo4j.username: "neo4j"
+
+# password for  neo4j DB.
+neo4j.password: "emdev"
+
+#---------------redis configuration----------------------------------#
+
+# The redis instance to use cache and pub sub.
+redis.host: "104.200.17.97"
+
+# The redis port.
+redis.port: 6380
+
+# username for  redis.
+redis.username: ""
+
+# password for  redis
+redis.password: "em2015"
+
+#---------------notifier configuration----------------------------------#
+notifier.httpport: 3999
+notifier.brokerhost: "localhost"
+notifier.brokerport: 1884
+
+# If you would like to send the log output to a file you can set the path below.
+logging.dest: stdout
+
+
+
